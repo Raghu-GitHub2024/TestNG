@@ -15,6 +15,8 @@ public class HowToHoverOver {
 		WebElement account = driver.findElement(By.xpath("//span[@class ='nav-line-2 ']"));
 		Actions a1 = new Actions(driver);
 		a1.moveToElement(account).perform();
+		WebElement Am = driver.findElement(By.xpath("(//span[.='Sign in'])[1]"));
+		Am.click();
 	}
 
 }

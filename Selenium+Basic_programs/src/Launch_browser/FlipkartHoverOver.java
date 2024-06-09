@@ -12,7 +12,7 @@ public class FlipkartHoverOver {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
-		WebElement account = driver.findElement(By.xpath("(//span[.='Fashion'])[2]"));
+		WebElement account = driver.findElement(By.xpath("(//span[.='Fashion'])[1]"));
 		Actions a1 = new Actions(driver);
 		a1.moveToElement(account).perform();
 		WebElement Men = driver.findElement(By.linkText("Men's T-Shirts"));

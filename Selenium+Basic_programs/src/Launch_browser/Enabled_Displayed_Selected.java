@@ -13,7 +13,8 @@ public class Enabled_Displayed_Selected {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://google.co.in/");
 		driver.manage().window().maximize();
-		WebElement search_tf = driver.findElement(By.name("q"));
+		//WebElement search_tf = driver.findElement(By.name("q"));
+		WebElement search_tf = driver.findElement(By.cssSelector("#APjFqb"));//Css selector
 		if(search_tf.isDisplayed() && search_tf.isEnabled())
 		{
 			search_tf.sendKeys("india");

@@ -15,6 +15,7 @@ public class Amazon_Login {
 		WebElement log = driver.findElement(By.xpath("//span[@id='nav-link-accountList-nav-line-1']"));
 		
 		log.click();
+		
 
 	}
 

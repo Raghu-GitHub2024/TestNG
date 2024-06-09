@@ -26,9 +26,9 @@ public class JSAM_Auto2 {
 		JSAM5.click();
 		WebElement JSAM6 = driver.findElement(By.xpath("//input[@id='321']"));
 		JSAM6.click();
-		WebElement JSAM7 = driver.findElement(By.xpath("/html/body/input[4]"));
+		WebElement JSAM7 = driver.findElement(By.xpath("(//input)[11]"));
 		JSAM7.click();
-		WebElement JSAM8 = driver.findElement(By.xpath("/html/body/input[6]"));
+		WebElement JSAM8 = driver.findElement(By.xpath("(//input)[13]"));
 		JSAM8.click();
 
 	}

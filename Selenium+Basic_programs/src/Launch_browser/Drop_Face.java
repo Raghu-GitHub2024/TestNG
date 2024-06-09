@@ -1,4 +1,4 @@
-package Launch_browser;
+package Launch_browser; 	
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

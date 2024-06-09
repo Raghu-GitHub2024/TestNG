@@ -13,6 +13,7 @@ public class Facebok_login {
 			Face.findElement(By.id("email")).sendKeys("asdfsf");
 			Face.findElement(By.id("pass")).sendKeys("pwd");
 			Face.findElement(By.name("login")).click();
+			Face.close();
 			
 
 	}

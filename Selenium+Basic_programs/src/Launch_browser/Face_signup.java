@@ -13,11 +13,8 @@ public class Face_signup {
 		Face.get("https://www.facebook.com/");
 		WebElement Fac = Face.findElement(By.partialLinkText("Create"));
 		Fac.click();
-		Fac.findElement(By.name("c")).sendKeys("Dinesh");
-		Fac.findElement(By.name("lastname")).sendKeys("Kumar");
-		Fac.findElement(By.name("reg_email__")).sendKeys("123456789");
-		Fac.findElement(By.id("password_step_input")).sendKeys("password1");
-
+		WebElement Fac1 = Face.findElement(By.xpath("//input[@name='firstname']"));		
+		Fac1.sendKeys("ABCD");
 	}
 
 }
