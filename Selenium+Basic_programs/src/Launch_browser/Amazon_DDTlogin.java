@@ -13,7 +13,8 @@ import org.openqa.selenium.interactions.Actions;
 
 public class Amazon_DDTlogin {
 
-	public static void main(String[] args) throws EncryptedDocumentException, IOException {
+	public static void main(String[] args) throws EncryptedDocumentException, IOException
+	{
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.Amazon.in");
 		driver.manage().window().maximize();

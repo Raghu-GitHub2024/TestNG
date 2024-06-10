@@ -17,7 +17,8 @@ public class JASM_RegDDT {
 	public static void main(String[] args) throws EncryptedDocumentException, IOException 
 	{
 		ChromeDriver driver = new ChromeDriver();
-		driver.get("https://grotechminds.com/registeration-form/");
+		driver.navigate().to("https://grotechminds.com/registeration-form/");
+	//	driver.get("https://grotechminds.com/registeration-form/");
 		driver.manage().window().maximize();
 		
 		FileInputStream c1 = new FileInputStream(
@@ -59,6 +60,8 @@ public class JASM_RegDDT {
 		
 		WebElement TC = driver.findElement(By.xpath("//input[@id='terms']"));
 		TC.click();
+		
+		driver.navigate().refresh();
 		
 		WebElement Register = driver.findElement(By.xpath("//button[@name='Submit']"));
 		Register.click();
