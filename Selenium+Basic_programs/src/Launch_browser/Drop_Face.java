@@ -21,7 +21,7 @@ public class Drop_Face {
 		WebElement year=		driver.findElement(By.id("year"));
 		Select s3=new Select(year);
 		s3.selectByValue("2000");
-
+	
 	}
 
 }

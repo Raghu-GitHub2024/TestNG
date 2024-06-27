@@ -2,12 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-23T22:30:19 IST" name="Suite" finished-at="2024-06-23T22:30:34 IST" duration-ms="14937">
+  <suite started-at="2024-06-27T13:37:55 IST" name="Suite" finished-at="2024-06-27T13:38:30 IST" duration-ms="34739">
     <groups>
+      <group name="Shoe">
+        <method signature="TestCase10.shoe_search()[pri:0, instance:Selenium_Amazelogins_ll.TestCase10@48974e45]" name="shoe_search" class="Selenium_Amazelogins_ll.TestCase10"/>
+        <method signature="TestCase10.shoe_search()[pri:0, instance:Selenium_Amazelogins_ll.TestCase10@bae7dc0]" name="shoe_search" class="Selenium_Amazelogins_ll.TestCase10"/>
+      </group> <!-- Shoe -->
     </groups>
-    <test started-at="2024-06-23T22:30:19 IST" name="Testing on Edge" finished-at="2024-06-23T22:30:32 IST" duration-ms="12909">
-      <class name="selenium_Amazon.Google_Parallel">
-        <test-method signature="testcase1(java.lang.String)[pri:0, instance:selenium_Amazon.Google_Parallel@649bec2e]" started-at="2024-06-23T22:30:19 IST" name="testcase1" finished-at="2024-06-23T22:30:32 IST" duration-ms="12800" status="PASS">
+    <test started-at="2024-06-27T13:37:55 IST" name="Testing on Edge" finished-at="2024-06-27T13:38:30 IST" duration-ms="34550">
+      <class name="Selenium_Amazelogins_ll.TestCase10">
+        <test-method is-config="true" signature="testcase1(java.lang.String)[pri:0, instance:Selenium_Amazelogins_ll.TestCase10@bae7dc0]" started-at="2024-06-27T13:37:56 IST" name="testcase1" finished-at="2024-06-27T13:38:11 IST" duration-ms="15698" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +22,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-      </class> <!-- selenium_Amazon.Google_Parallel -->
+        <test-method signature="shoe_search()[pri:0, instance:Selenium_Amazelogins_ll.TestCase10@bae7dc0]" started-at="2024-06-27T13:38:11 IST" name="shoe_search" finished-at="2024-06-27T13:38:26 IST" duration-ms="14277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoe_search -->
+        <test-method is-config="true" signature="Close(java.lang.String)[pri:0, instance:Selenium_Amazelogins_ll.TestCase10@bae7dc0]" started-at="2024-06-27T13:38:26 IST" name="Close" finished-at="2024-06-27T13:38:30 IST" duration-ms="4477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- Selenium_Amazelogins_ll.TestCase10 -->
     </test> <!-- Testing on Edge -->
-    <test started-at="2024-06-23T22:30:19 IST" name="Testing on  chrome" finished-at="2024-06-23T22:30:34 IST" duration-ms="14937">
-      <class name="selenium_Amazon.Google_Parallel">
-        <test-method signature="testcase1(java.lang.String)[pri:0, instance:selenium_Amazon.Google_Parallel@1da2cb77]" started-at="2024-06-23T22:30:19 IST" name="testcase1" finished-at="2024-06-23T22:30:34 IST" duration-ms="14854" status="PASS">
+    <test started-at="2024-06-27T13:37:55 IST" name="Testing on Chrome" finished-at="2024-06-27T13:38:30 IST" duration-ms="34739">
+      <class name="Selenium_Amazelogins_ll.TestCase10">
+        <test-method is-config="true" signature="testcase1(java.lang.String)[pri:0, instance:Selenium_Amazelogins_ll.TestCase10@48974e45]" started-at="2024-06-27T13:37:56 IST" name="testcase1" finished-at="2024-06-27T13:38:13 IST" duration-ms="17932" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +52,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-      </class> <!-- selenium_Amazon.Google_Parallel -->
-    </test> <!-- Testing on  chrome -->
+        <test-method signature="shoe_search()[pri:0, instance:Selenium_Amazelogins_ll.TestCase10@48974e45]" started-at="2024-06-27T13:38:13 IST" name="shoe_search" finished-at="2024-06-27T13:38:29 IST" duration-ms="15790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoe_search -->
+        <test-method is-config="true" signature="Close(java.lang.String)[pri:0, instance:Selenium_Amazelogins_ll.TestCase10@48974e45]" started-at="2024-06-27T13:38:29 IST" name="Close" finished-at="2024-06-27T13:38:30 IST" duration-ms="937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- Selenium_Amazelogins_ll.TestCase10 -->
+    </test> <!-- Testing on Chrome -->
   </suite> <!-- Suite -->
 </testng-results>

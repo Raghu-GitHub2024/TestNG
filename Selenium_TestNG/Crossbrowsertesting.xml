@@ -16,5 +16,11 @@
    </test> <!-- Test -->
    
    
+   <test thread-count="5" name="Testing on  firefox">
+	<parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="selenium_Amazon.Google_Parallel"/>
+    </classes>
+   </test> <!-- Test -->
    
 </suite> <!-- Suite -->

@@ -7,7 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-public class LaunchQuit
+public class LaunchQuit   
 {ChromeDriver driver; 
 	@BeforeMethod
 	public void launch() throws InterruptedException 
